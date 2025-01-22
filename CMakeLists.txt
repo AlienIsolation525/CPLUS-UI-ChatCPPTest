@@ -14,6 +14,6 @@ if ( MSVC )
 endif()
 
 file(GLOB_RECURSE SRC_FILES sources/*.cpp)
-file(GLOB_RECURSE HEADERS_FILES sources/*.h
+file(GLOB_RECURSE HEADERS_FILES sources/*.h)
 
 add_executable(Chat ${SRC_FILES} ${HEADERS_FILES})
